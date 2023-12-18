@@ -7,7 +7,7 @@ const int maxPulseWidth = 2080;  // rotating at max speed
 const int pulseWidthStep = (maxPulseWidth - minPulseWidth) / 50;
 const int startButtonPin = 2;
 const int stopButtonPin = 4;
-const int timeToRotate = 30000;  // 30s
+const unsigned long timeToRotate = 60000;  // 60s
 
 enum Status {
   stopped,
